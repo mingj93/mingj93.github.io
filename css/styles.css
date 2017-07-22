@@ -16,7 +16,7 @@ h1, h2, h3{
 }
 
 body{
-	background: url('/Users/mingjia/Downloads/pfnp-july-2017-master/PFNP_code/about-me/images/abstract-mosaic-background.png') no-repeat center center fixed;
+	background: url('../images/abstract-mosaic-background.png') no-repeat center center fixed;
 	background-size: cover;
 }
 
