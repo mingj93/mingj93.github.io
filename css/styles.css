@@ -2,7 +2,7 @@
 
 p, li{
 	font-family: 'Reenie Beanie', serif;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 h2, h3{
@@ -112,6 +112,11 @@ header img{
 
 .me p{
 	margin: 0 auto;
-	background-color: #000000;
 	opacity: .8;
+}
+
+footer{
+	position:fixed;
+	bottom: 0px;
+	right: 5px;
 }
