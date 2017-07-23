@@ -1,23 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Codystar|Comfortaa|Permanent+Marker|Reenie+Beanie');
 
 p, li{
-	font-family: 'Slabo 27px', serif;
-	color: #3c250a;
+	font-family: 'Reenie Beanie', serif;
+	color: #FFFFFF;
 }
 
-h1, h2, h3{
-	font-family: 'Montserrat', sans-serif;
-	color: #3c250a;
+h2, h3{
+	font-family: 'Codystar', sans-serif;
+	color: #FFFFFF;
+	max-height: 500px;
 }
 
-.project{
-	background-color: grey;
-	width: 543px;
-}
-
-body{
-	background: url('../images/abstract-mosaic-background.png') no-repeat center center fixed;
-	background-size: cover;
+.head h1{
+	font-family: 'Codystar';
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 50px;
+	position: fixed;
+	text-align: left;
+	bottom: 0px;
+	left: 10px;
+	width: 100%;
 }
 
 .wrapper{
@@ -26,16 +29,20 @@ body{
 	text-align: center;
 }
 
+body{
+	background: url('https://img1.goodfon.com/original/1920x1080/e/f5/game-of-thrones-start-doge.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
 header, footer{
-	background-color: #595959;
 	text-align: center;
 	padding: 15px 30px;
 }
 
 .main-content{
-	background-color: #808f85;
 	padding: 10px 0;
-	border-top: 2px solid #cfd11a;
+	max-height: 500px;
+
 }
 
 header img{
@@ -47,25 +54,30 @@ header img{
 	list-style-type: none;
 	padding-left: 0;
 	margin: 0 auto;
+	position: fixed;
+	top: 20px;
+	left: 10px;
 }
 
 .main-content ul li{
 	padding: 10px;
-	display: inline;
 	font-weight: bold;
+	text-align: center;
 }
 
 .main-content ul li a{
 	text-decoration: none;
-	color: #cfd11a;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: 'Codystar';
 }
 
 .main-content p{
+	align-content: center; 
 	margin: 10px 40px;
-}
-
-#projects{
-	background-color: #808f85;
+	width: 540px;
+	left: 1000px;
+	text-align: center;
 }
 
 .clearfix:after {
@@ -77,17 +89,29 @@ header img{
 .project{
 	width: 30%;
 	display: inline-block;
-	background-color: #f2e9dc;
 	margin: 1.66%;
 	border-radius: 15px;
 	float: left;
+	background-color: #000000;
+	opacity: .8;
 }
 
 
 .project img{
 	max-width: 100%;
+	opacity: 1;
+}
+
+.project p{
+	width: 75%;
 }
 
 .project h2{
 	text-align: center;
+}
+
+.me p{
+	margin: 0 auto;
+	background-color: #000000;
+	opacity: .8;
 }
